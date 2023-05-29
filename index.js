@@ -17,6 +17,7 @@ app.use(
   cors({
     credentials: true,
     origin: "http://localhost/3000",
+    origin: "http://bucket-fe-cloud.s3-website-ap-southeast-1.amazonaws.com",
   })
 );
 
