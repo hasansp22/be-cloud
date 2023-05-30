@@ -36,4 +36,4 @@ app.use(express.json());
 app.use(KategoriRoute);
 app.use(AdminRoute);
 
-app.listen(5001, () => console.log("server is up and running..."));
+app.listen(5000, () => console.log("server is up and running..."));
